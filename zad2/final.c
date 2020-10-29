@@ -8,11 +8,11 @@ void wypisz (FILE *fin,int a, int b, float m1[a][b])
     {
         for (int j=0; j<b;j++){
            fscanf(fin,"%f\t", &m1[i][j]);
-           printf("%f\t",m1[i][j]);
+           //printf("%f\t",m1[i][j]); aby wypisac mozna uzyc tej linijki
         }
-        printf("\n");
+        //printf("\n");
     }
-    printf("\n");
+    //printf("\n");
 }
 void mnozenie (int w3,int k3,int b,float W[w3][k3],float A[][b],float X[][k3])
 {
