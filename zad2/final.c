@@ -22,6 +22,7 @@ void mnozenie (int w3,int k3,int b,float W[w3][k3],float A[][b],float X[][k3])
         for (int j=0;j<k3;j++)
             W[i][j]=0;
     }
+    printf("(%d)[",w3);
     for (int i=0;i<w3;i++)
     {
         
@@ -32,12 +33,13 @@ void mnozenie (int w3,int k3,int b,float W[w3][k3],float A[][b],float X[][k3])
             {
             W[j][i]+=A[i][l]*X[l][j];
             }
-            printf("%f\n",W[i][j]);
+            printf("%.1f ",W[i][j]);
         }
         
     
         
     }
+    printf("]");
 }
 int main (int argc,char *argv[])
 {
