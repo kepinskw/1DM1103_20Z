@@ -55,5 +55,7 @@ int main (int argc,char *argv[])
     wypisz(finx,c,d,X);
     mnozenie(a,d,b,W,A,X);
 
+    fclose(fina);
+    fclose(finx);
     return 0;
 }
