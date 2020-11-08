@@ -56,14 +56,18 @@ struct macierz subtract (struct macierz a, struct macierz b)
     for (i=0;i<a.a;i++)
         for (j=0; j<a.b;i++)
             sub.T[i][j]=a.T[i][j]+b.T[i][j];
+    return sub;
 
 }
 struct macierz multiply (struct macierz a, float x)
 {
     int j,i;
+    struct macierz b;
     for (i=0;i<a.a;i++)
         for (j=0;j<a.b;j++)
-            a.T[i][j]*=x;
+            b.T[i][j]=a.T[i][j]*x;
+    
+    return b;
 }
 
 struct macierz prod(struct macierz a, struct macierz b)
@@ -78,7 +82,9 @@ struct macierz prod(struct macierz a, struct macierz b)
                     prodo.T[i][j]+=(b.T[i][k]*b.T[k][j]);
                 }
             }
+
 }
+return prodo;
 }
 float norm (struct macierz a)
 {
