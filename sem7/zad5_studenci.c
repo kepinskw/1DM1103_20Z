@@ -1,7 +1,5 @@
 #include "zad5_studenci.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+
 int wczytaj(student dane[100], char *fnazwa) {
     FILE * fin = fopen(fnazwa, "r");
     int cnt, i;
