@@ -242,7 +242,7 @@ Przedmiot * zwrocp(Przedmiot *glowa, int i) {
 //     }
   
 //     return nowa_glowa;
-// }
+// } 
 
 void wyszukaj (SBaza *baza, char *przedmiott)
 {
