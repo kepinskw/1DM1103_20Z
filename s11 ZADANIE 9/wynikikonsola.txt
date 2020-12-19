@@ -1,0 +1,58 @@
+wiktor@DESKTOP-DD8NOCT:/mnt/c/studia/1DM1103_20Z/1DM1103_20Z/sem11$ ./a.out qwerty_14 M M R M R M I
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 224
+Access-Control-Allow-Origin: *
+Server: Werkzeug/1.0.1 Python/3.6.9
+Date: Sat, 19 Dec 2020 23:00:15 GMT
+
+{"status": "Success", "payload": {"name": "First world 14", "current_x": 1, "current_y": 5, "current_session": "af2faaf8-525e-4bce-ada2-43fcd3eb53cd", "direction": "N", "step": 37, "field_type": "grass", "field_bonus": ""}}
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 224
+Access-Control-Allow-Origin: *
+Server: Werkzeug/1.0.1 Python/3.6.9
+Date: Sat, 19 Dec 2020 23:00:15 GMT
+
+{"status": "Success", "payload": {"name": "First world 14", "current_x": 1, "current_y": 6, "current_session": "af2faaf8-525e-4bce-ada2-43fcd3eb53cd", "direction": "N", "step": 38, "field_type": "grass", "field_bonus": ""}}
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 224
+Access-Control-Allow-Origin: *
+Server: Werkzeug/1.0.1 Python/3.6.9
+Date: Sat, 19 Dec 2020 23:00:15 GMT
+
+{"status": "Success", "payload": {"name": "First world 14", "current_x": 1, "current_y": 6, "current_session": "af2faaf8-525e-4bce-ada2-43fcd3eb53cd", "direction": "E", "step": 39, "field_type": "grass", "field_bonus": ""}}
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 224
+Access-Control-Allow-Origin: *
+Server: Werkzeug/1.0.1 Python/3.6.9
+Date: Sat, 19 Dec 2020 23:00:15 GMT
+
+{"status": "Success", "payload": {"name": "First world 14", "current_x": 1, "current_y": 6, "current_session": "af2faaf8-525e-4bce-ada2-43fcd3eb53cd", "direction": "E", "step": 40, "field_type": "grass", "field_bonus": ""}}
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 224
+Access-Control-Allow-Origin: *
+Server: Werkzeug/1.0.1 Python/3.6.9
+Date: Sat, 19 Dec 2020 23:00:15 GMT
+
+{"status": "Success", "payload": {"name": "First world 14", "current_x": 1, "current_y": 6, "current_session": "af2faaf8-525e-4bce-ada2-43fcd3eb53cd", "direction": "S", "step": 41, "field_type": "grass", "field_bonus": ""}}
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 224
+Access-Control-Allow-Origin: *
+Server: Werkzeug/1.0.1 Python/3.6.9
+Date: Sat, 19 Dec 2020 23:00:15 GMT
+
+{"status": "Success", "payload": {"name": "First world 14", "current_x": 1, "current_y": 5, "current_session": "af2faaf8-525e-4bce-ada2-43fcd3eb53cd", "direction": "S", "step": 42, "field_type": "grass", "field_bonus": ""}}
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 224
+Access-Control-Allow-Origin: *
+Server: Werkzeug/1.0.1 Python/3.6.9
+Date: Sat, 19 Dec 2020 23:00:15 GMT
+
+{"status": "Success", "payload": {"name": "First world 14", "current_x": 1, "current_y": 5, "current_session": "af2faaf8-525e-4bce-ada2-43fcd3eb53cd", "direction": "S", "step": 43, "field_type": "grass", "field_bonus": ""}}
+wiktor@DESKTOP-DD8NOCT:/mnt/c/studia/1DM1103_20Z/1DM1103_20Z/sem11$
